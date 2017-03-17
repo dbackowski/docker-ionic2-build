@@ -8,7 +8,7 @@ ENV ANDROID_SDK_VERSION=25.2.3
 ENV PATH ${PATH}:${ANDROID_HOME}/tools
 
 RUN apt-get update && \
-    apt-get install -y openjdk-7-jdk unzip && \
+    apt-get install -y openjdk-7-jdk unzip ruby && \
     apt-get clean && \
     npm install -g cordova@"$CORDOVA_VERSION" ionic@"$IONIC_VERSION" && \
     npm cache clear && \
