@@ -1,6 +1,6 @@
 # docker-ionic2-build
 
-Dockerfile based on official node:6.10.0 docker image with android-sdk-linux for android builds.
+Dockerfile based on official Ubuntu 16.04 docker image with android-sdk-linux for android builds.
 
 ## What is included?
 
