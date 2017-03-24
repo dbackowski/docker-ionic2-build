@@ -4,8 +4,8 @@ Dockerfile based on official Ubuntu 16.04 docker image with android-sdk-linux fo
 
 ## What is included?
 
-* Node.js - 6.10.0
-* Ionic framework - 2.2.0
+* Node.js - 6.10.1
+* Ionic CLI - 2.2.1
 * Cordova - 6.5.0
 * Android SDK - 25.2.3
 

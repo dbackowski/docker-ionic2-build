@@ -1,11 +1,11 @@
 FROM ubuntu:16.04
 MAINTAINER Damian Baćkowski <damianbackowski@gmail.com>
 
-ENV IONIC_VERSION=2.2.0
+ENV IONIC_CLI_VERSION=2.2.1
 ENV CORDOVA_VERSION=6.5.0
 ENV ANDROID_HOME=/opt/android-sdk-linux
 ENV ANDROID_SDK_VERSION=25.2.3
-ENV NODE_VERSION 6.10.0
+ENV NODE_VERSION 6.10.1
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:/opt/tools
 
 RUN apt-get update && apt-get install software-properties-common -y && add-apt-repository ppa:webupd8team/java -y && \
@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install software-properties-common -y && add-apt-r
     tar -xJf "node-v$NODE_VERSION-linux-x64.tar.xz" -C /usr/local --strip-components=1 && \
     rm -f "node-v$NODE_VERSION-linux-x64.tar.xz" && \
     npm install npm -g && \
-    npm install -g cordova@"$CORDOVA_VERSION" ionic@"$IONIC_VERSION" && \
+    npm install -g cordova@"$CORDOVA_VERSION" ionic@"$IONIC_CLI_VERSION" && \
     npm cache clear && \
     mkdir $ANDROID_HOME && \
     cd $ANDROID_HOME && \
