@@ -5,7 +5,7 @@ ENV IONIC_CLI_VERSION=2.2.1
 ENV CORDOVA_VERSION=6.5.0
 ENV ANDROID_HOME=/opt/android-sdk-linux
 ENV ANDROID_SDK_VERSION=25.2.3
-ENV NODE_VERSION 6.10.1
+ENV NODE_VERSION 6.10.2
 ENV PATH ${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools:/opt/tools
 
 RUN apt-get update && apt-get install software-properties-common -y && add-apt-repository ppa:webupd8team/java -y && \
