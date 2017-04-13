@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 MAINTAINER Damian Baćkowski <damianbackowski@gmail.com>
 
-ENV IONIC_CLI_VERSION=2.2.1
+ENV IONIC_CLI_VERSION=2.2.2
 ENV CORDOVA_VERSION=6.5.0
 ENV ANDROID_HOME=/opt/android-sdk-linux
 ENV ANDROID_SDK_VERSION=25.2.3
