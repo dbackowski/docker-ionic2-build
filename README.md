@@ -6,7 +6,7 @@ Dockerfile based on official Ubuntu 16.04 docker image with android-sdk-linux fo
 
 * Node.js - 8.9.4
 * Ionic CLI - 3.19.1
-* Cordova - 7.1.0
+* Cordova - 8.0.0
 * Android SDK - 26.0.2
 
 ## Usage 
